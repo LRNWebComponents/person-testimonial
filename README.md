@@ -9,14 +9,18 @@
 ```
 -->
 ```html
-<person-testimonial></person-testimonial>
+<link rel="import" href="person-testimonial.html">
+<person-testimonial image="headshot.jpg" name="Someone Mc'HAX" position="A HAX user">
+  <span>I know HAX. I've used HAX, I've written HAX. And let me tell you, HAX,... it's HAX alright.</span>
+</person-testimonial>
+
 ```
 
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/LRNWebComponents/person-testimonial)
 
 # \<person-testimonial\>
 
-A LRN element
+Showcase a client testimonial on your site to sell more widgets. Here's a video of how this was built and where it came from: [YouTube video](https://www.youtube.com/watch?v=KrS9kUO_ghA)
 
 ## Install the Polymer-CLI
 
